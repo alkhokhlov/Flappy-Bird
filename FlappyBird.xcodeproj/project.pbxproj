@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A802CDB31CA07D96000E380B /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = A802CDB21CA07D96000E380B /* GameScene.m */; };
+		A807A5971C9D421000C093D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A807A5961C9D421000C093D7 /* main.m */; };
+		A807A59A1C9D421000C093D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A807A5991C9D421000C093D7 /* AppDelegate.m */; };
+		A807A59D1C9D421000C093D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A807A59C1C9D421000C093D7 /* ViewController.m */; };
+		A807A5A01C9D421000C093D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A807A59E1C9D421000C093D7 /* Main.storyboard */; };
+		A807A5A21C9D421000C093D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A807A5A11C9D421000C093D7 /* Assets.xcassets */; };
+		A807A5A51C9D421000C093D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A807A5A31C9D421000C093D7 /* LaunchScreen.storyboard */; };
+		A807A5AE1C9D438C00C093D7 /* MenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = A807A5AD1C9D438C00C093D7 /* MenuScene.m */; };
+		A80DEFA01CA3409600975C44 /* hit.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A80DEF9B1CA3409600975C44 /* hit.m4a */; };
+		A80DEFA11CA3409600975C44 /* point.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A80DEF9C1CA3409600975C44 /* point.m4a */; };
+		A80DEFA21CA3409600975C44 /* swooshing.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A80DEF9D1CA3409600975C44 /* swooshing.m4a */; };
+		A80DEFA31CA3409600975C44 /* wing.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A80DEF9E1CA3409600975C44 /* wing.m4a */; };
+		A80DEFA51CA342D000975C44 /* die.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A80DEFA41CA342D000975C44 /* die.m4a */; };
+		A80DEFAB1CA3BFB000975C44 /* SpriteFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A80DEFAA1CA3BFB000975C44 /* SpriteFactory.m */; };
+		A80DEFB11CA3E6EE00975C44 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80DEFB01CA3E6EE00975C44 /* CoreData.framework */; };
+		A80DEFB51CA3E74A00975C44 /* DataController.m in Sources */ = {isa = PBXBuildFile; fileRef = A80DEFB41CA3E74A00975C44 /* DataController.m */; };
+		A80DEFB81CA3E80400975C44 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A80DEFB71CA3E80400975C44 /* DataManager.m */; };
+		A80DEFBB1CA3E87200975C44 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A80DEFB91CA3E87200975C44 /* DataModel.xcdatamodeld */; };
+		A80DEFC01CA3E8B200975C44 /* Leader+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A80DEFBD1CA3E8B200975C44 /* Leader+CoreDataProperties.m */; };
+		A80DEFC11CA3E8B200975C44 /* Leader.m in Sources */ = {isa = PBXBuildFile; fileRef = A80DEFBF1CA3E8B200975C44 /* Leader.m */; };
+		A8728CAE1CA5D42F001FBE65 /* InfoScene.m in Sources */ = {isa = PBXBuildFile; fileRef = A8728CAD1CA5D42F001FBE65 /* InfoScene.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A802CDB11CA07D96000E380B /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		A802CDB21CA07D96000E380B /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		A807A5921C9D421000C093D7 /* FlappyBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A807A5961C9D421000C093D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A807A5981C9D421000C093D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A807A5991C9D421000C093D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A807A59B1C9D421000C093D7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A807A59C1C9D421000C093D7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A807A59F1C9D421000C093D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A807A5A11C9D421000C093D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A807A5A41C9D421000C093D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A807A5A61C9D421000C093D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A807A5AC1C9D438C00C093D7 /* MenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuScene.h; sourceTree = "<group>"; };
+		A807A5AD1C9D438C00C093D7 /* MenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuScene.m; sourceTree = "<group>"; };
+		A80DEF9B1CA3409600975C44 /* hit.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = hit.m4a; sourceTree = "<group>"; };
+		A80DEF9C1CA3409600975C44 /* point.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = point.m4a; sourceTree = "<group>"; };
+		A80DEF9D1CA3409600975C44 /* swooshing.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = swooshing.m4a; sourceTree = "<group>"; };
+		A80DEF9E1CA3409600975C44 /* wing.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = wing.m4a; sourceTree = "<group>"; };
+		A80DEFA41CA342D000975C44 /* die.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = die.m4a; sourceTree = "<group>"; };
+		A80DEFA91CA3BFB000975C44 /* SpriteFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpriteFactory.h; sourceTree = "<group>"; };
+		A80DEFAA1CA3BFB000975C44 /* SpriteFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpriteFactory.m; sourceTree = "<group>"; };
+		A80DEFB01CA3E6EE00975C44 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A80DEFB31CA3E74A00975C44 /* DataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataController.h; sourceTree = "<group>"; };
+		A80DEFB41CA3E74A00975C44 /* DataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataController.m; sourceTree = "<group>"; };
+		A80DEFB61CA3E80400975C44 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		A80DEFB71CA3E80400975C44 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		A80DEFBA1CA3E87200975C44 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		A80DEFBC1CA3E8B200975C44 /* Leader+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Leader+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A80DEFBD1CA3E8B200975C44 /* Leader+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Leader+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A80DEFBE1CA3E8B200975C44 /* Leader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Leader.h; sourceTree = "<group>"; };
+		A80DEFBF1CA3E8B200975C44 /* Leader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Leader.m; sourceTree = "<group>"; };
+		A8728CAC1CA5D42F001FBE65 /* InfoScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoScene.h; sourceTree = "<group>"; };
+		A8728CAD1CA5D42F001FBE65 /* InfoScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoScene.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A807A58F1C9D421000C093D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80DEFB11CA3E6EE00975C44 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A807A5891C9D421000C093D7 = {
+			isa = PBXGroup;
+			children = (
+				A80DEFB21CA3E6F200975C44 /* Frameworks */,
+				A807A5941C9D421000C093D7 /* FlappyBird */,
+				A807A5931C9D421000C093D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A807A5931C9D421000C093D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A807A5921C9D421000C093D7 /* FlappyBird.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A807A5941C9D421000C093D7 /* FlappyBird */ = {
+			isa = PBXGroup;
+			children = (
+				A80DEF851CA33F8F00975C44 /* Sound */,
+				A80DEFAC1CA3E6A100975C44 /* CoreData */,
+				A807A5981C9D421000C093D7 /* AppDelegate.h */,
+				A807A5991C9D421000C093D7 /* AppDelegate.m */,
+				A807A59B1C9D421000C093D7 /* ViewController.h */,
+				A807A59C1C9D421000C093D7 /* ViewController.m */,
+				A807A5AC1C9D438C00C093D7 /* MenuScene.h */,
+				A807A5AD1C9D438C00C093D7 /* MenuScene.m */,
+				A802CDB11CA07D96000E380B /* GameScene.h */,
+				A802CDB21CA07D96000E380B /* GameScene.m */,
+				A8728CAC1CA5D42F001FBE65 /* InfoScene.h */,
+				A8728CAD1CA5D42F001FBE65 /* InfoScene.m */,
+				A80DEFA91CA3BFB000975C44 /* SpriteFactory.h */,
+				A80DEFAA1CA3BFB000975C44 /* SpriteFactory.m */,
+				A807A59E1C9D421000C093D7 /* Main.storyboard */,
+				A807A5A11C9D421000C093D7 /* Assets.xcassets */,
+				A807A5A31C9D421000C093D7 /* LaunchScreen.storyboard */,
+				A807A5A61C9D421000C093D7 /* Info.plist */,
+				A807A5951C9D421000C093D7 /* Supporting Files */,
+			);
+			path = FlappyBird;
+			sourceTree = "<group>";
+		};
+		A807A5951C9D421000C093D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A807A5961C9D421000C093D7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A80DEF851CA33F8F00975C44 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				A80DEFA41CA342D000975C44 /* die.m4a */,
+				A80DEF9B1CA3409600975C44 /* hit.m4a */,
+				A80DEF9C1CA3409600975C44 /* point.m4a */,
+				A80DEF9D1CA3409600975C44 /* swooshing.m4a */,
+				A80DEF9E1CA3409600975C44 /* wing.m4a */,
+			);
+			name = Sound;
+			sourceTree = "<group>";
+		};
+		A80DEFAC1CA3E6A100975C44 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				A80DEFB91CA3E87200975C44 /* DataModel.xcdatamodeld */,
+				A80DEFB31CA3E74A00975C44 /* DataController.h */,
+				A80DEFB41CA3E74A00975C44 /* DataController.m */,
+				A80DEFB61CA3E80400975C44 /* DataManager.h */,
+				A80DEFB71CA3E80400975C44 /* DataManager.m */,
+				A80DEFBC1CA3E8B200975C44 /* Leader+CoreDataProperties.h */,
+				A80DEFBD1CA3E8B200975C44 /* Leader+CoreDataProperties.m */,
+				A80DEFBE1CA3E8B200975C44 /* Leader.h */,
+				A80DEFBF1CA3E8B200975C44 /* Leader.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		A80DEFB21CA3E6F200975C44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A80DEFB01CA3E6EE00975C44 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A807A5911C9D421000C093D7 /* FlappyBird */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A807A5A91C9D421000C093D7 /* Build configuration list for PBXNativeTarget "FlappyBird" */;
+			buildPhases = (
+				A807A58E1C9D421000C093D7 /* Sources */,
+				A807A58F1C9D421000C093D7 /* Frameworks */,
+				A807A5901C9D421000C093D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlappyBird;
+			productName = FlappyBird;
+			productReference = A807A5921C9D421000C093D7 /* FlappyBird.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A807A58A1C9D421000C093D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Alexandr;
+				TargetAttributes = {
+					A807A5911C9D421000C093D7 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = A807A58D1C9D421000C093D7 /* Build configuration list for PBXProject "FlappyBird" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A807A5891C9D421000C093D7;
+			productRefGroup = A807A5931C9D421000C093D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A807A5911C9D421000C093D7 /* FlappyBird */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A807A5901C9D421000C093D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A807A5A51C9D421000C093D7 /* LaunchScreen.storyboard in Resources */,
+				A80DEFA51CA342D000975C44 /* die.m4a in Resources */,
+				A807A5A21C9D421000C093D7 /* Assets.xcassets in Resources */,
+				A80DEFA01CA3409600975C44 /* hit.m4a in Resources */,
+				A807A5A01C9D421000C093D7 /* Main.storyboard in Resources */,
+				A80DEFA31CA3409600975C44 /* wing.m4a in Resources */,
+				A80DEFA21CA3409600975C44 /* swooshing.m4a in Resources */,
+				A80DEFA11CA3409600975C44 /* point.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A807A58E1C9D421000C093D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80DEFC11CA3E8B200975C44 /* Leader.m in Sources */,
+				A807A59D1C9D421000C093D7 /* ViewController.m in Sources */,
+				A807A5AE1C9D438C00C093D7 /* MenuScene.m in Sources */,
+				A802CDB31CA07D96000E380B /* GameScene.m in Sources */,
+				A807A59A1C9D421000C093D7 /* AppDelegate.m in Sources */,
+				A80DEFB51CA3E74A00975C44 /* DataController.m in Sources */,
+				A80DEFB81CA3E80400975C44 /* DataManager.m in Sources */,
+				A80DEFC01CA3E8B200975C44 /* Leader+CoreDataProperties.m in Sources */,
+				A8728CAE1CA5D42F001FBE65 /* InfoScene.m in Sources */,
+				A80DEFBB1CA3E87200975C44 /* DataModel.xcdatamodeld in Sources */,
+				A807A5971C9D421000C093D7 /* main.m in Sources */,
+				A80DEFAB1CA3BFB000975C44 /* SpriteFactory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A807A59E1C9D421000C093D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A807A59F1C9D421000C093D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A807A5A31C9D421000C093D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A807A5A41C9D421000C093D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A807A5A71C9D421000C093D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A807A5A81C9D421000C093D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A807A5AA1C9D421000C093D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FlappyBird/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kh.FlappyBird;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		A807A5AB1C9D421000C093D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FlappyBird/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kh.FlappyBird;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A807A58D1C9D421000C093D7 /* Build configuration list for PBXProject "FlappyBird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A807A5A71C9D421000C093D7 /* Debug */,
+				A807A5A81C9D421000C093D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A807A5A91C9D421000C093D7 /* Build configuration list for PBXNativeTarget "FlappyBird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A807A5AA1C9D421000C093D7 /* Debug */,
+				A807A5AB1C9D421000C093D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A80DEFB91CA3E87200975C44 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A80DEFBA1CA3E87200975C44 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = A80DEFBA1CA3E87200975C44 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A807A58A1C9D421000C093D7 /* Project object */;
+}
